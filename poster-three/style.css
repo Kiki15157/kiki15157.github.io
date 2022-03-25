@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(227, 240, 85);
+}
+
+div.poster{
+    background-color:rgb(59, 14, 22);
+    width:45%;
+}
+
+div.text{
+    font-size:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:rgb(190, 70, 126);
+    -webkit-text-stroke:2px rgb(50, 185, 226);
+    transition:1s;
+}
+
+/* rule 1 */
+
+div.text.one{
+    font-size:30px;
+    background-color:bisque;
+}
+
+div.text.two{
+    font-size:60px;
+    background-color:rgb(130, 243, 55);
+}
+
+div.text.three{
+    font-size:160px;
+}
+
+/* rule2 */
+
+div.text.a{
+    color:rgb(52, 52, 63);
+}
+
+div.text.b{
+    color:rgb(103, 170, 167);
+}
+
+div.text.c{
+    color:rgb(222, 192, 250);
+}
+
+/* rule3 */
+
+div.text.x{
+    text-align:left;
+}
+
+div.text.y{
+    text-align:right;
+}
+
+div.text.z{
+    text-align:center;
+}
+div.small {
+    font-size:30px;
+    color:rgb(121, 97, 101);
+    text-align: center;
+}
