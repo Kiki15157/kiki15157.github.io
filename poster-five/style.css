@@ -1,0 +1,100 @@
+body {
+
+}
+
+div.poster{
+
+    width:100%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+ 
+    width:50%;
+    overflow:hidden;
+}
+div.log {
+    font-size:50px;
+}
+
+div.w1-4 {
+    width:25%;
+}
+
+div.w2-4 {
+    width:50%;
+}
+
+div.w3-4 {
+    width:75%;
+}
+
+div.w4-4 {
+    width:100%;
+}
+div.text{
+    font-size:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:black;
+    
+    transition:0.5s;
+    text-shadow:
+        0px 10px 0px white,
+        0px 25px 0px black,
+        0px 30px 0px white,
+        0px 35px 0px black;
+}
+
+/* rule 1 */
+
+div.text.one{
+    font-size:30px;
+
+}
+
+div.text.two{
+    font-size:60px;
+
+}
+
+div.text.three{
+    font-size:80px;
+}
+
+/* rule2 */
+
+div.text.a{
+
+}
+
+div.text.b{
+
+}
+
+div.text.c{
+
+}
+
+/* rule3 */
+
+div.text.x{
+    text-align:left;
+}
+
+div.text.y{
+    text-align:right;
+}
+
+div.text.z{
+    text-align:center;
+}
+div.small {
+    font-size:30px;
+    color:rgb(121, 97, 101);
+    text-align: center;
+}
