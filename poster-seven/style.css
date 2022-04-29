@@ -1,0 +1,116 @@
+body {
+    background-color:rgb(0, 0, 0);
+}
+
+div.poster{
+    background-color:rgb(138, 29, 29);
+    width:100%;
+    /* background-image:url('sisi.jpeg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center center; */
+}
+
+div.containter {
+    display:flex;
+}
+
+div.col {
+}
+
+div.text{
+    font-size:80px;
+    font-family:Monospace;
+    text-align:center;
+    color:rgb(205, 216, 207);
+    -webkit-text-stroke:2px rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #d86f0d;
+    border: 10px solid currentcolor;
+    transform: rotateX(30deg);
+    transition:1s;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.col {
+   
+}
+
+.w1-2 {
+    width:80%
+}
+
+.text-red {
+    color:red
+}
+
+.text-blue {
+    color:blue
+}
+
+.text-yellow {
+    color:yellow
+}
+
+/* rule 1 */
+
+div.text.one{
+   font-size:80px;
+}
+
+div.text.two{
+    font-size:80px;
+}
+
+div.text.three{
+    font-size:80px;
+}
+
+/* rule2 */
+
+div.text.a{
+    background-image:rgb(202, 191, 191);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top right;
+    color:transparent;
+}
+
+div.text.b{
+    background-color: rgb(202, 191, 191);
+    background-repeat:no-repeat;
+    background-size:200px;
+    background-position:center center;
+    color:transparent;
+}
+
+div.text.c{
+    background-image: pink;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    transform: rotateY(90deg);
+    color:transparent;
+}
+
+/* rule3 */
+
+div.text.x{
+    text-align:left;
+}
+
+div.text.y{
+    text-align:right;
+}
+
+div.text.z{
+    text-align:center;
+}
+div.small {
+    font-size:30px;
+    color:rgb(121, 97, 101);
+    text-align: center;
+}
