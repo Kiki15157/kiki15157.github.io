@@ -5,7 +5,7 @@ body {
 div.poster{
 
     width:100%;
-    margin-top:100px;
+    margin: 25px 50p;
 }
 
 div.container {
@@ -38,8 +38,8 @@ div.w4-4 {
     width:100%;
 }
 div.text{
-    font-size:80px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px;
+    font-family:snell roundhand;
     text-align:center;
     color:rgb(45, 87, 50);
     
@@ -51,18 +51,18 @@ div.text{
 
 div.text.one{
     font-size:30px;
-    transform: rotate(-20deg);
+    transform: rotate(-2deg);
 
 }
 
 div.text.two{
-    font-size:60px;
-    transform: rotate(20deg);
+    font-size:40px;
+    transform: rotate(-2deg);
 
 }
 
 div.text.three{
-    font-size:80px;
+    font-size:60px;
 }
 
 /* rule2 */

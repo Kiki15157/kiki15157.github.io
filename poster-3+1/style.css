@@ -1,22 +1,19 @@
 body {
-    background-color:brown;
+    background-color:rgba(243, 62, 174, 0.735);
 }
 
 div.poster{
-    background-color:white;
+    background-color:rgb(244, 128, 224);
     width:75%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 130px;
-    margin-left: 130px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 div.text{
-    font-size:50px;
-    font-family: Arial;
+    font-size:60px;
+    font-family: Phosphate;
     text-align:center;
     color:aquamarine;
-    -webkit-text-stroke:2px rgb(50, 185, 226);
     transition:0.5s;
 }
 
@@ -24,14 +21,19 @@ div.text{
 
 div.text.one{
     font-size:30px;
+    background-color: rgba(238, 201, 224, 0.735);
+    margin-bottom:50px;
+    border-radius: 60%;
 }
 
 div.text.two{
     font-size:60px;
+    border-radius: 60%;
 }
 
 div.text.three{
     font-size:160px;
+    border-radius: 60%;
 }
 
 /* rule2 */
@@ -41,7 +43,7 @@ div.text.a{
 }
 
 div.text.b{
-    color:lightseagreen;
+    color:rgb(16, 131, 126);
 }
 
 div.text.c{
