@@ -1,0 +1,16 @@
+Kiki future
+
+header x
+
+title
+about
+footnotes
+    note title
+    note desc
+    note titlenote outgoing link
+         a
+    container
+        item
+            image
+            paragraph
+    footer
