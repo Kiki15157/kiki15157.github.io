@@ -160,3 +160,10 @@ div.featureimage.daisy{
     width:45%;
     margin: 100px 300px 25px 400px;
 }
+
+div.footnote{
+    background-color: rgb(252, 240, 71);
+    color:white;
+    border-radius:20px;
+    margin: 20px 300px 25px 700px;
+}
